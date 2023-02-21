@@ -5,5 +5,8 @@ bluetooth.device.default_name=realme GT 2 Pro
 ro.surface_flinger.set_idle_timer_ms=250
 ro.surface_flinger.set_touch_timer_ms=300
 
+# Radio
+persist.radio.multisim.config=dsds
+
 # USB
 vendor.usb.product_string=realme GT 2 Pro
