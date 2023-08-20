@@ -11,4 +11,32 @@
     <!-- The Enrollment Progress bar for UDFPS sensor in pixels -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">119</integer>
 
+    <!-- Flag to enable framework dimming for udfps -->
+    <bool name="config_udfpsFrameworkDimming">true</bool>
+
+    <!-- Array of brightness-alpha lut for framework dimming -->
+    <string-array name="config_udfpsDimmingBrightnessAlphaArray" translatable="false">
+          <item>0,250</item>
+          <item>1,235</item>
+          <item>2,225</item>
+          <item>3,220</item>
+          <item>8,190</item>
+          <item>16,177</item>
+          <item>27,156</item>
+          <item>41,137</item>
+          <item>61,120</item>
+          <item>80,103</item>
+          <item>104,87</item>
+          <item>130,70</item>
+          <item>158,53</item>
+          <item>188,37</item>
+          <item>221,22</item>
+          <item>250,10</item>
+          <item>255,5</item>
+    </string-array>
+
+    <!-- The amount of delay to add when disabling the dimming.
+         This is used to prevent flickers due to the dimming being disabled
+         before the screen has had chance to switch out of HBM mode -->
+    <integer name="config_udfpsDimmingDisableDelay">35</integer>
 </resources>
