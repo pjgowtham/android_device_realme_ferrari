@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from realme GT 2 Pro (RMX3301_14.0.0.410(EX01)).
+## are from realme GT 2 Pro (RMX3301_14.0.0.601(EX01)).
 
 # ACDB
 odm/etc/acdbdata/EU/acdb_cal.acdb
@@ -906,6 +906,8 @@ odm/lib64/libapsdarksight.so
 odm/lib64/libapsexif.so
 odm/lib64/libapsjpeg.so
 odm/lib64/libapspng.so
+odm/lib64/libapsultrahdr.so
+odm/lib64/libapsyuv.so
 odm/lib64/libarc_eis_custom.so
 odm/lib64/libarcsoft_aicolor_image.so
 odm/lib64/libarcsoft_aicolor_video.so
@@ -995,8 +997,8 @@ odm/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so
 odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
 odm/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so
-odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
+odm/lib64/vendor.oplus.hardware.sendextcamcmd-V2-ndk.so
 odm/lib64/vendor.oplus.hardware.urcc-V1-ndk_platform.so
 vendor/bin/hw/vendor.qti.camera.provider@2.7-service_64
 vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc
@@ -1189,7 +1191,7 @@ vendor/lib64/libthreadutils.so
 vendor/lib64/libubifocus.so
 vendor/lib64/vendor.oplus.hardware.cameraextension-V1-ndk_platform.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
-vendor/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk_platform.so
+vendor/lib64/vendor.oplus.hardware.sendextcamcmd-V2-ndk_platform.so
 vendor/lib64/vendor.qti.hardware.camera.aon@1.0-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.qti.hardware.display.config-V2-ndk_platform.so
