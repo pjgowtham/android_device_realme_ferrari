@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE=ferrarri
+export DEVICE=ferrari
 export DEVICE_COMMON=sm8450-common
 export VENDOR=realme
 export VENDOR_COMMON=oneplus
