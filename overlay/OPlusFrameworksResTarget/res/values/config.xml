@@ -247,6 +247,10 @@
          The user is forbidden from setting the brightness below this level. -->
     <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.00097680097</item>
 
+    <!-- The maximum range of gamma adjustment possible using the screen
+         auto-brightness adjustment setting. -->
+    <fraction name="config_autoBrightnessAdjustmentMaxGamma">100%</fraction>
+
     <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
          for debouncing the light sensor.  Different constants are used to debounce the light sensor
          when adapting to brighter or darker environments.  This parameter controls how quickly
