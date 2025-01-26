@@ -8,7 +8,7 @@ odm/etc/acdbdata/FTM/workspaceFileXml.qwsp
 odm/etc/acdbdata/ORANGE/acdb_cal.acdb
 odm/etc/acdbdata/VDF/acdb_cal.acdb
 odm/etc/acdbdata/Audio_Parameter_Version.txt
-odm/etc/acdbdata/acdb_cal.acdb
+odm/etc/acdbdata/acdb_cal.acdb;SYMLINK=vendor/etc/acdbdata/waipio_mtp/acdb_cal.acdb
 
 # ADSP modules
 odm/lib/rfsa/adsp/aiboost/libQnnHtpV69Skel.so
