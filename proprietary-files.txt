@@ -990,7 +990,6 @@ odm/lib64/libsnpe_loader.so
 odm/lib64/libstblur_api.so
 odm/lib64/libstblur_capture_api.so
 odm/lib64/libstface_fd_api.so
-odm/lib64/libstfaceunlockocl.so
 odm/lib64/libstfd_mobile_api.so
 odm/lib64/libthirdcapability.so
 odm/lib64/libtriplecam_optical_zoom_control.so
@@ -1227,6 +1226,27 @@ odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc
 odm/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
 odm/lib64/vendor.qti.esepowermanager@1.0.so
 odm/lib64/vendor.qti.esepowermanager@1.1.so
+
+# Face
+odm/bin/hw/vendor.oplus.hardware.biometrics.face@1.0-service
+odm/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc
+odm/etc/vintf/manifest/manifest_oplus_face.xml
+vendor/bin/hw/android.hardware.biometrics.face@1.0-service.face
+vendor/etc/init/android.hardware.biometrics.face@1.0-service.face.rc
+vendor/lib64/vendor.qti.hardware.secureprocessor.common@1.0.so
+vendor/lib64/vendor.qti.hardware.secureprocessor.config@1.0.so
+vendor/lib64/vendor.qti.hardware.secureprocessor.device@1.0.so
+vendor/lib64/vendor.qti.hardware.secureprocessor.common@1.0-helper.so
+odm/vendor/firmware/facereg.b00
+odm/vendor/firmware/facereg.b01
+odm/vendor/firmware/facereg.b02
+odm/vendor/firmware/facereg.b03
+odm/vendor/firmware/facereg.b04
+odm/vendor/firmware/facereg.b05
+odm/vendor/firmware/facereg.b06
+odm/vendor/firmware/facereg.b07
+odm/vendor/firmware/facereg.mdt
+odm/lib64/libstfaceunlockocl.so
 
 # Fingerprint
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
