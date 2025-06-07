@@ -9,6 +9,11 @@ include device/oneplus/sm8450-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/realme/ferrari
 
+# Display
+$(call soong_config_set,qtidisplay,oplus_adfr,true)
+$(call soong_config_set,qtidisplay,oplus_udfps,true)
+$(call soong_config_set,qtidisplay,pxlw_vendor_namespace,vendor/oneplus/sm8450-common)
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
