@@ -26,10 +26,6 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 3216
 TARGET_SCREEN_WIDTH := 1440
 
-# Camera
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/media/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml
-
 # Display
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display_id_4630946358012694402.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946358012694402.xml
