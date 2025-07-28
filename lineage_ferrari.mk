@@ -23,8 +23,8 @@ PRODUCT_MODEL := RMX3301
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="RMX3301-user 14 UP1A.230620.001 S.14b9d95_34b46-2684b release-keys" \
-    BuildFingerprint=realme/RMX3301/RED8ACL1:14/UP1A.230620.001/S.14b9d95_34b46-2684b:user/release-keys \
+    BuildDesc="RMX3301-user 15 AP3A.240617.008 S.1e1fd2e-39b2-5cafa release-keys" \
+    BuildFingerprint=realme/RMX3301/RED8ACL1:15/AP3A.240617.008/S.1e1fd2e-39b2-5cafa:user/release-keys \
     DeviceName=RED8ACL1 \
     DeviceProduct=RMX3301 \
     SystemDevice=RED8ACL1 \
