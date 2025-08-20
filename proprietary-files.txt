@@ -1220,6 +1220,15 @@ vendor/firmware/CAMERA_ICP.mdt
 vendor/firmware/CAMERA_ICP_170.elf
 vendor/firmware/CAMERA_ICP_480.elf
 
+# Charger
+odm/bin/hw/vendor.oplus.hardware.charger-V6-service
+odm/etc/init/vendor.oplus.hardware.charger-V6-service.rc
+odm/etc/vintf/manifest/manifest_oplus_charger_aidl.xml
+odm/firmware/fastchg/216AC/charging_thermal_config_default.txt
+odm/lib64/libGaiaClient_vnd.so
+odm/lib64/vendor.oplus.hardware.charger-V6-ndk_platform.so
+odm/lib64/vendor.oplus.hardware.charger@1.0.so
+
 # ESE
 odm/bin/hw/vendor.qti.esepowermanager@1.1-service
 odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc
