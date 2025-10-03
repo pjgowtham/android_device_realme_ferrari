@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display_id_4630946358012694401.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946358012694401.xml
 
 $(call soong_config_set,qtidisplay,oplus_udfps,true)
+$(call soong_config_set,qtidisplay,pxlw_vendor_namespace,vendor/oneplus/sm8450-common)
 
 # NFC
 PRODUCT_PACKAGES += \
