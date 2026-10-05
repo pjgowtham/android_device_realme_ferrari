@@ -993,7 +993,6 @@ odm/lib64/libwatermark_photo.so
 odm/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
-odm/lib64/vendor.oplus.hardware.sendextcamcmd-V2-ndk.so
 vendor/bin/hw/vendor.qti.camera.provider@2.7-service_64
 vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc
 vendor/lib64/camera/components/com.arcsoft.node.eisv2.so
@@ -1181,9 +1180,7 @@ vendor/lib64/libsynx.so
 vendor/lib64/libtfestriping.so
 vendor/lib64/libthreadutils.so
 vendor/lib64/libubifocus.so
-vendor/lib64/vendor.oplus.hardware.cameraextension-V1-ndk_platform.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
-vendor/lib64/vendor.oplus.hardware.sendextcamcmd-V2-ndk_platform.so
 vendor/lib64/vendor.qti.hardware.camera.aon@1.0-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
@@ -1305,7 +1302,6 @@ odm/lib64/anc.hal.so
 odm/lib64/libTeeClient.so
 odm/lib64/libolc_vnd.so
 odm/lib64/libgf_hal_G7.so
-odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so
 odm/vendor/firmware/goodixfp.b00
 odm/vendor/firmware/goodixfp.b01
 odm/vendor/firmware/goodixfp.b02
