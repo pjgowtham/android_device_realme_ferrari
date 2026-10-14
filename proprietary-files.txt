@@ -9,6 +9,13 @@ odm/etc/acdbdata/ORANGE/acdb_cal.acdb
 odm/etc/acdbdata/VDF/acdb_cal.acdb
 odm/etc/acdbdata/Audio_Parameter_Version.txt
 odm/etc/acdbdata/acdb_cal.acdb
+odm/etc/acdbdata/EU/acdb_cal.acdb:vendor/etc/acdbdata/waipio_mtp/EU/acdb_cal.acdb
+odm/etc/acdbdata/FTM/acdb_cal.acdb:vendor/etc/acdbdata/waipio_mtp/FTM/acdb_cal.acdb
+odm/etc/acdbdata/FTM/workspaceFileXml.qwsp:vendor/etc/acdbdata/waipio_mtp/FTM/workspaceFileXml.qwsp
+odm/etc/acdbdata/ORANGE/acdb_cal.acdb:vendor/etc/acdbdata/waipio_mtp/ORANGE/acdb_cal.acdb
+odm/etc/acdbdata/VDF/acdb_cal.acdb:vendor/etc/acdbdata/waipio_mtp/VDF/acdb_cal.acdb
+odm/etc/acdbdata/Audio_Parameter_Version.txt:vendor/etc/acdbdata/waipio_mtp/Audio_Parameter_Version.txt
+odm/etc/acdbdata/acdb_cal.acdb:vendor/etc/acdbdata/waipio_mtp/acdb_cal.acdb
 
 # ADSP modules
 odm/lib/rfsa/adsp/aiboost/libQnnHtpV69Skel.so
