@@ -25,12 +25,9 @@ odm/lib/rfsa/adsp/libQnnHtpAltPrepV69Skel.so
 odm/lib/rfsa/adsp/libSnpeHtpV68Skel.so
 odm/lib/rfsa/adsp/libSnpeHtpV69Skel.so
 odm/lib/rfsa/adsp/libSuperRawPost_skel.so
-odm/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so
 odm/lib/rfsa/adsp/libarcsoft_dualcam_refocus_5221_skel.so
 odm/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
 odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so
-odm/lib/rfsa/adsp/libarcsoft_hdrplus_se_hvx_skel.so
-odm/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so
 odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel.so
 odm/lib/rfsa/adsp/libc++.so.1
 odm/lib/rfsa/adsp/libc++abi.so.1
@@ -871,11 +868,9 @@ odm/lib64/libOPLUS_SCPortrait.so;FIX_SONAME
 odm/lib64/libPerfectColor.so
 odm/lib64/libPerfectlyClearCrux.so
 odm/lib64/libPerfectlyClearCruxOpt.so
-odm/lib64/libPlatformValidatorShared.so
 odm/lib64/libPolarrRender.so
 odm/lib64/libPreviewDecisionOld.so
 odm/lib64/libQnnHtpAltPrepV69Stub.so
-odm/lib64/libRbsFlow_cap.so
 odm/lib64/libRedeyeReduce.so
 odm/lib64/libSNPE.so
 odm/lib64/libSnpeCpu.so;FIX_SONAME
@@ -915,8 +910,6 @@ odm/lib64/libapsdarksight.so
 odm/lib64/libapsexif.so
 odm/lib64/libapsjpeg.so
 odm/lib64/libapspng.so
-odm/lib64/libapsyuv.so
-odm/lib64/libarc_eis_custom.so
 odm/lib64/libarcsoft_aicolor_image.so
 odm/lib64/libarcsoft_aicolor_video.so
 odm/lib64/libarcsoft_distortion_correction.so
@@ -931,7 +924,6 @@ odm/lib64/libarcsoft_hdr_couple_api.so
 odm/lib64/libarcsoft_hdr_couple_api_v4.so
 odm/lib64/libarcsoft_hdr_denoise_api.so
 odm/lib64/libarcsoft_hdr_denoise_api_v4.so
-odm/lib64/libarcsoft_hdrplus_hvx_stub.so
 odm/lib64/libarcsoft_high_dynamic_range.so
 odm/lib64/libarcsoft_high_dynamic_range_couple.so
 odm/lib64/libarcsoft_high_dynamic_range_couple_v4.so
@@ -941,7 +933,6 @@ odm/lib64/libarcsoft_low_light_hdr.so
 odm/lib64/libarcsoft_low_light_hdr_for_neon.so;FIX_SONAME
 odm/lib64/libarcsoft_mcxmflpolicy.so
 odm/lib64/libarcsoft_pic_best.so
-odm/lib64/libarcsoft_portraitSN_hvx_stub.so
 odm/lib64/libarcsoft_portrait_super_night_raw.so
 odm/lib64/libarcsoft_preview_antibanding.so
 odm/lib64/libarcsoft_qnnhtp.so
@@ -955,8 +946,6 @@ odm/lib64/libarcsoft_triple_sat.so
 odm/lib64/libarcsoft_triple_zoomtranslator.so
 odm/lib64/libarcsoft_videoautozoom.so;FIX_SONAME
 odm/lib64/libcalculator.so
-odm/lib64/libcalculator_htp.so
-odm/lib64/libcreatebin.so
 odm/lib64/libcustomer_halalgovisual.so
 odm/lib64/libcvface_api.so
 odm/lib64/libdualcam_image_optical_zoom.so
@@ -977,11 +966,7 @@ odm/lib64/liboptical_zoom_dc.so
 odm/lib64/liboptical_zoom_vs.so
 odm/lib64/libormshalclient.so
 odm/lib64/libpngwrapper.so
-odm/lib64/libpnscr2.so
 odm/lib64/libremosaic_wrapper.so
-odm/lib64/librmsclib1.so
-odm/lib64/libsaveshaderbin.so
-odm/lib64/libsecurity_event_dcs.so
 odm/lib64/libsharebuffer.so
 odm/lib64/libsharebuffer_impl.so
 odm/lib64/libsnpe_dsp_domains_v2.so
@@ -1131,7 +1116,6 @@ vendor/lib64/libaidenoiser.so
 vendor/lib64/libaidenoiserv2.so
 vendor/lib64/libbitmlengine.so
 vendor/lib64/libbitmlenginev2.so
-vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libcamerapostproc.so
 vendor/lib64/libcamxcommonutils.so
 vendor/lib64/libcamxexternalformatutils.so
@@ -1158,13 +1142,11 @@ vendor/lib64/libipebpsstriping480.so
 vendor/lib64/libjpege.so
 vendor/lib64/libmctfengine_stub.so
 vendor/lib64/libmfGhostDetection.so
-vendor/lib64/libmidasserviceintf.so
 vendor/lib64/libmidasserviceintf_aidl.so
 vendor/lib64/libmmcamera_bestats.so
 vendor/lib64/libmmcamera_cac.so
 vendor/lib64/libmmcamera_lscv35.so
 vendor/lib64/libmmcamera_mfnr.so
-vendor/lib64/libmmcamera_mfnr_t4.so
 vendor/lib64/libmmcamera_pdpc.so
 vendor/lib64/libopencv.so
 vendor/lib64/libopencv3a.so
@@ -1176,7 +1158,6 @@ vendor/lib64/libqshcamera.so
 vendor/lib64/libsfeShiftExtrapolation.so
 vendor/lib64/libtfestriping.so
 vendor/lib64/libubifocus.so
-vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.aon@1.0-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
