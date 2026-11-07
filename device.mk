@@ -27,8 +27,7 @@ TARGET_SCREEN_HEIGHT := 3216
 TARGET_SCREEN_WIDTH := 1440
 
 # Camera
-PRODUCT_PACKAGES += \
-    androidx.camera.extensions.impl.oplus
+$(call inherit-product, vendor/oplus/camera/blobs/blobs-vendor.mk)
 
 # Display
 PRODUCT_COPY_FILES += \
