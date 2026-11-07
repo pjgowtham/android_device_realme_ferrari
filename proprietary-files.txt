@@ -479,12 +479,6 @@ odm/etc/camera/filters_lut/vivid-cool.cube.rgb.bin
 odm/etc/camera/filters_lut/vivid-lut.cube.rgb.bin
 odm/etc/camera/filters_lut/vivid-warm.cube.rgb.bin
 odm/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin
-odm/etc/camera/filters_res/filters_res/film_grain_small.bin
-odm/etc/camera/filters_res/filters_res/lut_all_points.png
-odm/etc/camera/filters_res/filters_res/overlay_p4_3_weak.png
-odm/etc/camera/filters_res/film_grain_small.bin
-odm/etc/camera/filters_res/lut_all_points.png
-odm/etc/camera/filters_res/overlay_p4_3_weak.png
 odm/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model
 odm/etc/camera/gesture/modules/tt_hand_det_v11.0.model
 odm/etc/camera/gesture/modules/tt_hand_gesture_v11.1.model
@@ -733,9 +727,6 @@ odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneMRTBinary.bin
 odm/etc/camera/pfb_bin/ThirdPartyPreVertFilterBinary.bin
 odm/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin
 odm/etc/camera/singleblur/license_release.license
-odm/etc/camera/sticker/material/animoji/data.zip
-odm/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip
-odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model
 odm/etc/camera/tonemap/tonemap/curve_lut_0
 odm/etc/camera/tonemap/tonemap/curve_lut_1
 odm/etc/camera/tonemap/tonemap/curve_lut_10
@@ -842,7 +833,6 @@ odm/lib64/libAncFilter.so
 odm/lib64/libAncHumBokeh.so
 odm/lib64/libAncHumBokehPost.so
 odm/lib64/libAncHumVideoBase.so
-odm/lib64/libAncHumanDoubleExposure.so
 odm/lib64/libAncHumanRetain.so
 odm/lib64/libAncHumanSegFigureFusion.so
 odm/lib64/libAncSegBaseSdk.so
@@ -855,7 +845,6 @@ odm/lib64/libDeVIS.so
 odm/lib64/libEIS.so
 odm/lib64/libFDClite.so
 odm/lib64/libFaceBeautyCap.so
-odm/lib64/libFaceBeautyJni.so
 odm/lib64/libFaceBeautyPICap.so
 odm/lib64/libFaceBeautyPre.so
 odm/lib64/libFaceDistortionCorrection.so
