@@ -1,8 +1,5 @@
 # Bluetooth
 bluetooth.device.default_name=realme GT 2 Pro
 
-# Camera
-ro.vendor.oplus.market.name=realme GT 2 Pro
-
 # USB
 vendor.usb.product_string=realme GT 2 Pro
