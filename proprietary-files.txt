@@ -1161,6 +1161,15 @@ vendor/lib64/libubifocus.so
 vendor/lib64/vendor.qti.hardware.camera.aon@1.0-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
+# Camera unit SDK - from OnePlus 11 5G (CPH2449_14.0.0.401(EX01))
+my_product/product_overlay/framework/com.oplus.camera.unit.sdk.adapter.jar:system_ext/framework/com.oplus.camera.unit.sdk.adapter.jar|2ad81f33a40ec5b6a74fee6643892baf3effef9b
+my_product/product_overlay/framework/com.oplus.camera.unit.sdk.jar:system_ext/framework/com.oplus.camera.unit.sdk.jar|3f78838c8eb6d07bf97f95439ae10c2f4f7a10c9
+my_product/lib64/libAPSClient-cmd-jni.so:system_ext/lib64/libAPSClient-cmd-jni.so|5b0beaf7dd2bfea34abc4950492e5a8692767952
+my_product/lib64/libAPSClient-jni.so:system_ext/lib64/libAPSClient-jni.so|163ac8cc658bacb03c618ddfe26cf3e75afc0499
+system_ext/lib64/libHeifEncoderWrapper.so|7fdc2e16d1f761efff12cbcdc0afe4d0049898cc
+system_ext/lib64/libNativeWinBuffExchange.so|044202c321ad14a1557c040df12f044621f44032
+system_ext/lib64/liboplusheifwriter.so|b2234ed8b4f2e643fa601d82eb5a0b1c6a047ad8
+
 # Camera firmware
 vendor/firmware/CAMERA_ICP.b00
 vendor/firmware/CAMERA_ICP.b01
