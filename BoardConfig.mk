@@ -10,7 +10,7 @@ include device/oneplus/sm8450-common/BoardConfigCommon.mk
 DEVICE_PATH := device/realme/ferrari
 
 # Camera
-include vendor/oplus/camera/sepolicy/SEPolicy.mk
+include vendor/oplus/camera/BoardConfigVendor.mk
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml

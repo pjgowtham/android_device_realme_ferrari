@@ -27,7 +27,7 @@ TARGET_SCREEN_HEIGHT := 3216
 TARGET_SCREEN_WIDTH := 1440
 
 # Camera
-$(call inherit-product, vendor/oplus/camera/camera.mk)
+$(call inherit-product, vendor/oplus/camera/camera-vendor.mk)
 
 # Display
 PRODUCT_COPY_FILES += \
