@@ -80,6 +80,14 @@ blob_fixups: blob_fixups_user_type = {
     'odm/etc/camera/CameraHWConfiguration.config': blob_fixup()
         .regex_replace('SystemCamera =  0;  0;  1;  1;  1', 'SystemCamera =  0;  0;  0;  0;  1')
         .regex_replace('SystemCamera    = com.oplus.camera', 'SystemCamera    = org.lineageos.aperture'),
+    'odm/etc/camera/config/camera_unit_config': blob_fixup()
+        .regex_replace('^{', '{\n  "cameraExtensionConfig":[\n'
+            '    {"type":4, "cameraId":"0", "support_ratio":"standard,16_9", "format":"256,35", "specific_preview_ratio_size":{"standard":"1440x1080", "16_9":"1920x1080"}, "capture_latency_range":"100,7000"},\n'
+            '    {"type":2, "cameraId":"0", "support_ratio":"standard", "format":"256,35", "capture_latency_range":"100,10000"}\n'
+            '  ],\n'),
+    'odm/etc/camera/config/oplus_camera_algo_switch_config': blob_fixup()
+        .regex_replace(r'(?s)("mode": "portrait",\s*"entity": \[\s*\{\s*"id": 0,\s*"camera_num": )2(.*?"slave_input_width": )1440(,\s*"slave_input_height": )1080(.*?"algo_list": \[ )"preview_rtb", "preview_aicolor", ("preview_lsd" \])',
+                       r'\g<1>1\g<2>0\g<3>0\g<4>\g<5>'),
     'odm/lib64/libAlgoProcess.so': blob_fixup()
         .replace_needed('android.hardware.graphics.common-V2-ndk_platform.so', 'android.hardware.graphics.common-V7-ndk.so'),
     ('odm/lib64/libCOppLceTonemapAPI.so', 'odm/lib64/libSuperRaw.so', 'odm/lib64/libYTCommon.so', 'odm/lib64/libaps_frame_registration.so'): blob_fixup()
