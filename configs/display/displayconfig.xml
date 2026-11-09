@@ -15,11 +15,51 @@
     <screenBrightnessMap interpolation="linear">
         <point>
             <value>0.00097680097</value>
-            <nits>2.0</nits>
+            <nits>2.094</nits>
+        </point>
+        <point>
+            <value>0.00366300366</value>
+            <nits>3.719</nits>
+        </point>
+        <point>
+            <value>0.00537240537</value>
+            <nits>5.456</nits>
+        </point>
+        <point>
+            <value>0.00854700855</value>
+            <nits>8.946</nits>
+        </point>
+        <point>
+            <value>0.01489621490</value>
+            <nits>15.075</nits>
+        </point>
+        <point>
+            <value>0.02222222222</value>
+            <nits>22.163</nits>
+        </point>
+        <point>
+            <value>0.08034188034</value>
+            <nits>80.734</nits>
+        </point>
+        <point>
+            <value>0.16532356532</value>
+            <nits>174.364</nits>
+        </point>
+        <point>
+            <value>0.50036665851</value>
+            <nits>502.969</nits>
+        </point>
+        <point>
+            <value>0.80219780220</value>
+            <nits>687.653</nits>
+        </point>
+        <point>
+            <value>0.96971916972</value>
+            <nits>788.394</nits>
         </point>
         <point>
             <value>1.0</value>
-            <nits>800.0</nits>
+            <nits>789.124</nits>
         </point>
     </screenBrightnessMap>
     <highBrightnessMode enabled="true">
