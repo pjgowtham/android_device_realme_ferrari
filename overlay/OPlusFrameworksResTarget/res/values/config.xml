@@ -87,6 +87,11 @@
         <item>4000</item>
         <item>4500</item>
         <item>5000</item>
+        <item>8700</item>
+        <item>20101</item>
+        <item>30101</item>
+        <item>40101</item>
+        <item>60101</item>
     </integer-array>
 
     <!-- Array of desired screen brightness in nits corresponding to the lux values
@@ -161,6 +166,11 @@
         <item>420.0</item>
         <item>450.0</item>
         <item>502.0</item>
+        <item>600.0</item>
+        <item>650.0</item>
+        <item>700.0</item>
+        <item>750.0</item>
+        <item>800.0</item>
     </array>
 
     <!-- Screen brightness used to dim the screen when the user activity
