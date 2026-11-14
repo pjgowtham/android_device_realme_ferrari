@@ -72,6 +72,7 @@ def blob_fixup_nop_call(
 
 blob_fixups: blob_fixups_user_type = {
     'odm/bin/hw/vendor.oplus.hardware.biometrics.face@1.0-service': blob_fixup()
+        .binary_regex_replace(b'\x41\x00\x80\x52\xe0\x03\x14\xaa\xf3\xf8\xff\x97', b'\x61\x00\x80\x52\xe0\x03\x14\xaa\xf3\xf8\xff\x97') # no face timeout: UNABLE_TO_PROCESS -> TIMEOUT
         .replace_needed('android.hardware.biometrics.common-V1-ndk_platform.so', 'android.hardware.biometrics.common-V1-ndk.so')
         .replace_needed('android.hardware.biometrics.face-V1-ndk_platform.so', 'android.hardware.biometrics.face-V1-ndk.so'),
     'odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service': blob_fixup()
