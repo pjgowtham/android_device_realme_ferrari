@@ -74,6 +74,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Vibrator
+$(call soong_config_set,OPLUS_LINEAGE_VIBRATOR_EFFECT,INCLUDE_DIR,$(LOCAL_PATH)/vibrator)
+
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/oneplus/sm8450-common/common.mk)
 
