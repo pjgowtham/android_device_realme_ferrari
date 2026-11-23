@@ -26,6 +26,9 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 3216
 TARGET_SCREEN_WIDTH := 1440
 
+# Camera
+$(call inherit-product, vendor/oplus/camera/camera-vendor.mk)
+
 # Display
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946358012694402.xml
